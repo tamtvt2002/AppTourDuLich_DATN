@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    tools:context=".InfoTour">
+
+    <ImageView
+        android:id="@+id/imgHinhNen"
+        android:layout_width="453dp"
+        android:layout_height="235dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/huechu1" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="413dp"
+        android:layout_height="758dp"
+        android:layout_marginTop="190dp"
+        app:cardCornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="414dp"
+                    android:layout_height="680dp"
+                    android:background="@color/pink"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTenTour"
+                        android:layout_width="match_parent"
+                        android:layout_height="73dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="Phú Quốc"
+                        android:textColor="@color/black"
+                        android:textSize="30sp" />
+
+                    <com.google.android.material.bottomnavigation.BottomNavigationView
+                        android:id="@+id/nav_view"
+                        android:layout_width="293dp"
+                        android:layout_height="wrap_content"
+                        android:background="?android:attr/windowBackground"
+                        app:itemIconTint="?attr/colorSecondaryVariant"
+                        app:itemTextColor="#0086C3"
+                        app:menu="@menu/bottom_nav_menu">
+
+                    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+                    <fragment
+                        android:id="@+id/navkhoanchi"
+                        android:name="androidx.navigation.fragment.NavHostFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="551dp"
+                        android:visibility="visible"
+                        app:defaultNavHost="true"
+                        app:navGraph="@navigation/mobile_navigation" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageBackDetailTour"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left_arrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

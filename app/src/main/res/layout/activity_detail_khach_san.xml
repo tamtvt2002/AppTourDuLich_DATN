@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    tools:context=".InfoTour">
+
+    <ImageView
+        android:id="@+id/imgHinhNen"
+        android:layout_width="453dp"
+        android:layout_height="235dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/huechu1" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="413dp"
+        android:layout_height="758dp"
+        android:layout_marginTop="190dp"
+        app:cardCornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="414dp"
+                    android:layout_height="680dp"
+                    android:gravity="center|top"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTenKhachSan"
+                        android:layout_width="match_parent"
+                        android:layout_height="73dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="Phú Quốc"
+                        android:textColor="#0078C8"
+                        android:textSize="30sp" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="#0097A7"
+                                android:fontFamily="@font/baloo"
+                                android:text="Thông tin"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+                        <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            tools:context=".Fragments.DashboardFragment">
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/cardView4"
+                                android:layout_width="355dp"
+                                android:layout_height="203dp"
+                                android:layout_marginTop="30dp"
+                                android:foregroundGravity="center"
+                                app:cardCornerRadius="10dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="341dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="18dp"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/tv36"
+                                            android:layout_width="150dp"
+                                            android:layout_height="match_parent"
+                                            android:fontFamily="@font/sura"
+                                            android:text="@string/sodienthoai"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+
+                                        <TextView
+                                            android:id="@+id/tvSoDienThoai"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:fontFamily="sans-serif-light"
+                                            android:text="@string/NgayKhoiHanh"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/tv37"
+                                            android:layout_width="150dp"
+                                            android:layout_height="match_parent"
+                                            android:fontFamily="@font/sura"
+                                            android:text="@string/Gia1h"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+
+                                        <TextView
+                                            android:id="@+id/tvGia1h"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:fontFamily="sans-serif-light"
+                                            android:text="@string/Gia1Dem"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/tv38"
+                                            android:layout_width="150dp"
+                                            android:layout_height="match_parent"
+                                            android:fontFamily="@font/sura"
+                                            android:text="@string/Gia1Ngay"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+
+                                        <TextView
+                                            android:id="@+id/tvGia1Ngay"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="35dp"
+                                            android:layout_weight="1"
+                                            android:fontFamily="sans-serif-light"
+                                            android:text="@string/NoiKhoiHanh"
+                                            android:textColor="#000000"
+                                            android:textSize="14sp" />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/tv344"
+                                            android:layout_width="150dp"
+                                            android:layout_height="match_parent"
+                                            android:fontFamily="@font/sura"
+                                            android:text="@string/Gia1Dem"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+
+                                        <TextView
+                                            android:id="@+id/tvGia1Dem"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="35dp"
+                                            android:layout_weight="1"
+                                            android:fontFamily="sans-serif-light"
+                                            android:text="@string/NoiKhoiHanh"
+                                            android:textColor="#000000"
+                                            android:textSize="14sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/tv39"
+                                            android:layout_width="150dp"
+                                            android:layout_height="match_parent"
+                                            android:fontFamily="@font/sura"
+                                            android:text="@string/tinhtrang"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+
+                                        <TextView
+                                            android:id="@+id/tvTinhTrang"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:fontFamily="sans-serif-light"
+                                            android:text="@string/PhuongTien"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="45dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/textview33"
+                                            android:layout_width="150dp"
+                                            android:layout_height="match_parent"
+                                            android:fontFamily="@font/sura"
+                                            android:text="@string/DiaChi"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+
+                                        <TextView
+                                            android:id="@+id/tvDiaChi"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:fontFamily="sans-serif-light"
+                                            android:text="@string/GiaVe"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70dp"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/tv40"
+                                            android:layout_width="150dp"
+                                            android:layout_height="match_parent"
+                                            android:fontFamily="@font/sura"
+                                            android:text="@string/MoTa"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+
+                                        <TextView
+                                            android:id="@+id/tvMoTa"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:fontFamily="sans-serif-light"
+                                            android:text="@string/MoTa"
+                                            android:textColor="#000000"
+                                            android:textSize="16sp" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="214dp"
+                                android:layout_height="44dp"
+                                android:layout_marginTop="20dp"
+                                app:cardCornerRadius="15dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/cardView4">
+
+                                <Button
+                                    android:id="@+id/btnDatTour"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#0097A7"
+                                    android:fontFamily="@font/baloo"
+                                    android:text="@string/datphong"
+                                    android:textSize="16sp"
+                                    app:backgroundTint="#0097A7" />
+                            </androidx.cardview.widget.CardView>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageBackDetailTour"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left_arrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

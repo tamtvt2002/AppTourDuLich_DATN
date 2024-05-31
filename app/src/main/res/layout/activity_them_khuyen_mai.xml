@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm Khuyến Mãi"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:background="@color/Button"
+            android:textColor="#ffffff"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutTenKhuyenMai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên Khuyến Mãi">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextTenKhuyenMai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--        private String tenTour;-->
+        <!--        private String phuongTien;-->
+        <!--        private String khachSan;-->
+        <!--        private int donGia;-->
+        <!--        private String ngayKhoiHanh;-->
+        <!--        private String ngayketThuc;-->
+        <!--        private String moTa;-->
+        <!--        private String tinhTrang;-->
+        <!--        private String khuVuc;-->
+        <!--        private String noiKhoiHanh;-->
+        <!--        private String soNgay;-->
+        <!--        private String image;-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutChietKhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chiết Khấu">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextChietKhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutNgayBatDau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày Bắt Đầu">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextNgayBatDau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutNgayKetThuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày Kết Thúc">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextNgayKetThuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutThongTin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Thông Tin">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextThongTin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hình Ảnh"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonChoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn Ảnh"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/Button"
+            android:textColor="#ffffff"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Button"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:background="@color/Background"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="#ffffff"
+            android:background="#FF0000"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+</ScrollView>

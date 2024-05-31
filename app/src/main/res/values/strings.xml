@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">Love Travel</string>
+    <string name="nameload">Love Travel</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_usename">Số Điện Thoại</string>
+    <string name="prompt_password">Mật Khẩu</string>
+    <string name="otp">Mã OTP</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="dangki">Đăng Kí</string>
+    <string name="quenmatkhau">Quên Mật Khẩu</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="Nhaplaimatkhau">Nhập Lại Mật Khẩu</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="hoten">Họ Tên</string>
+    <string name="diachi">Địa Chỉ</string>
+    <string name="guilaimaotp">Gửi lại mã</string>
+    <string name="Confirm">Xác Nhận</string>
+    <string name="start">Bắt Đầu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook">Đăng Nhập Facebook</string>
+    <string name="Copy">Sao Chép</string>
+    <string name="Gmail">
+        Gmail</string>
+    <string name="DatVe">Đặt Vé</string>
+    <string name="InfoTour">Thông Tin</string>
+    <string name="details">Mô Tả</string>
+    <string name="Contact">Liên Hệ</string>
+    <string name="addressContact">Trần Văn Tâm, 20201125, Hà Nội, Việt Nam</string>
+    <string name="HotlineContact">01254621321</string>
+    <string name="EmailContact">tammr2k2@gmail.com</string>
+    <string name="infoContact">Love Travel</string>
+    <string name="ContactByPhone">Tư Vấn Qua Điện Thoại</string>
+    <string name="ThongBao">Thông Báo</string>
+
+    <string name="CCCD">CMNN/CCCD</string>
+    <string name="update">Cập Nhật
+    </string>
+    <string name="phone">Số Điện Thoại </string>
+
+    <string name="Login">Đăng Nhập</string>
+    <string name="Register">Đăng Kí</string>
+    <string name="Birthday">Ngày Sinh</string>
+    <string name="sloganstart1.2">Chào mừng bạn đến với du lịch Việt Nam. Vác balo lên và đánh dấu lại những dấu chân .</string>
+    <string name="sloganstart2"> Mỗi hành trình đều có những điểm đến bí mật mà ngay cả du khách cũng không thể ngờ tới.</string>
+    <string name="sloganstart3">Hãy để chúng tôi mang đến cho bạn tuyệt vời nhất !</string>
+    <string name="feedback">Góp Ý</string>
+    <string name="title_activity_profile">Profile</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="sex">Giới Tính</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="facebook_app_id">498471527958027</string>
+    <string name="fb_login_protocol_scheme">fb498471527958027</string>
+
+
+    <string name="Loginwithfacebook">Đăng Nhập với Facebook</string>
+    <string name="Boy">Nam</string>
+    <string name="Girl">Nữ</string>
+    <string name="PhoneNumber">Số Điện Thoại</string>
+    <string name="inputOTP">Vui lòng nhập mã OTP được gửi đến </string>
+    <string name="youhaveaccount">Bạn đã có tài khoản chưa?</string>
+    <string name="title_activity_home__screen">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_screen">MainActivity</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="Tour">Tour</string>
+    <string name="Home">Trang Chủ</string>
+    <string name="Location">Vị Trí</string>
+    <string name="Promotion">Ưu Đãi</string>
+    <string name="Profile">Cá Nhân</string>
+    <string name="Haytanhuong">Tận hưởng cuộc sống</string>
+    <string name="vedepbattan">Vẻ Đẹp Bất Tận</string>
+    <string name="vedeptieman">Vẻ Đẹp Tiềm Ẩn</string>
+
+    <string name="Search">Tìm Kiếm</string>
+    <string name="or">Hoặc</string>
+    <string name="ListTour">Danh Sách Tour</string>
+    <string name="ViewAll">Xem tất cả</string>
+    <string name="News">Tin Tức</string>
+    <string name="All">Tất Cả</string>
+    <string name="South">Miền Nam</string>
+    <string name="North">Miền Bắc</string>
+    <string name="Central">Miền Trung</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="Rules">Điều Khoản</string>
+    <string name="DetailRules1"> 1. Bạn cam kết và đảm bảo rằng bạn là một cá nhân về mặt pháp lý có toàn quyền tham gia giao kết thỏa thuận theo pháp luật nước Cộng hòa xã hội chủ nghĩa Việt Nam.</string>
+    <string name="DetailRules2"> 2. Chúng tôi thu thập và xử lý các thông tin của bạn, như là tên, địa chỉ, số điện thoại khi bạn đăng ký. Bạn phải cung cấp chính xác và đầy đủ thông tin, cập nhật thông tin và đồng ý cung cấp cho chúng tôi bất kỳ bằng chứng nào về danh tính theo yêu cầu hợp lý của chúng tôi. </string>
+    <string name="DetailRules3"> 3. Nếu các thông tin mà bạn cung cấp cho chúng tôi thay đổi, ví dụ, nếu bạn thay đổi địa chỉ email, hoặc nếu bạn muốn hủy tài khoản, xin vui lòng cập nhật chi tiết bằng cách gửi yêu cầu đến chúng tôi. Chúng tôi, trong khả năng của mình, sẽ nỗ lực thực hiện thay đổi theo yêu cầu trong ba mươi (30) ngày làm việc kể từ khi nhận được thông báo về thay đổi.</string>
+    <string name="DetailRules4"> 4. Bạn có thể chọn mua một phần hoặc toàn bộ các nội dung của Ứng dụng bằng cách thanh toán cho chúng tôi.</string>
+    <string name="DetailRules6">6. Người từ 11 tuổi trở lên sẽ tính vé bình thường. Phụ thu vé trẻ em từ 2 tuổi đến 11 tuổi sẽ tính bằng 50% vé và trẻ em dưới 2 tuổi sẽ được miễn phí. </string>
+    <string name="DetailRules5">5.  Bạn chỉ có thể hủy tour không quá 3 ngày sau khi đặt tour và trước khi khởi hành 7 ngày.</string>
+    <string name="DetailRules7">7. Số lượng đặt tour phải lớn hơn 0 và không quá 30 vé cho từng đối tượng.</string>
+    <string name="close">Đóng</string>
+    <string name="title_activity_infor_tour">InforTour</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_info_tour">MainActivity</string>
+    <!--info tour-->
+    <string name="NgayKhoiHanh">Ngày Khởi Hành:</string>
+    <string name="NgayKetThuc">Ngày Kết Thúc:</string>
+    <string name="Khachsan">Khách Sạn:</string>
+    <string name="CMNN">CMNN/CCCD:</string>
+    <string name="GiaVe">Giá Vé:</string>
+    <string name="NoiKhoiHanh">Nơi Khởi Hành:</string>
+
+    <!--Bill-->
+    <string name="HoaDon">Hóa Đơn</string>
+
+    <string name="SoNgay">Số Ngày:</string>
+    <string name="ThongTinKhachHang">Thông Tin Khách Hàng</string>
+    <string name="ThongTinTour">Thông Tin Tour</string>
+    <string name="KhuyenMai">Khuyến Mãi</string>
+    <string name="ApDung">Áp Dụng</string>
+    <string name="ThongTinThanhToan">Thông Tin Thanh Toán</string>
+    <string name="TenTour">Tên Tour:</string>
+    <string name="ChietKhau">Chiết Khấu:</string>
+    <string name="SoTienThanhToan">Số Tiền Thanh Toán:</string>
+    <string name="PhuongThucThanhToan">Phương Thức Thanh Toán:</string>
+    <string name="PhuongTien">Phương Tiện:</string>
+    <string name="NguoiLon">Người Lớn:</string>
+    <string name="TreEm">Trẻ Em:</string>
+    <string name="SoTien">Số Tiền:</string>
+    <string name="ThanhToan">Thanh Toán</string>
+    <string name="diachi1">Địa Chỉ:</string>
+
+    <string name="LichSu">Lịch Sử Thanh Toán</string>
+    <string name="YeuThich">Yêu Thích</string>
+
+
+    <!--Profile -->
+    <string name="dathich">Đã thích</string>
+    <string name="dieukhoan">Điều khoản</string>
+    <string name="ngonngu">Ngôn ngữ</string>
+    <string name="lichsu">Lịch sử</string>
+    <string name="lienhe">Liên hệ</string>
+    <string name="thongtincanhan">Thông tin cá nhân ></string>
+    <!--Activiti ChangeLanguage -->
+    <string name="haychonngonngu">Chọn ngôn ngữ</string>
+
+
+    <!--  <string name="NoInterNetConnection">Không Có Kết Nối Internet</string>-->
+
+
+    <string name="GuiLaiMa">Gửi lại</string>
+    <string name="housetour">Love Travel</string>
+
+
+    <!--    <string name="GuiLaiMa">Gửi lại</string>-->
+
+
+    <!--    <string name="DaLatThang1">Hoa Anh Đào Đà Lạt</string>-->
+    <!--    <string name="HoaAnhDao1">Đầu tháng 12 năm nay mai anh đào nở sớm ở một số điểm tại Đà Lạt nhưng thời điểm rộ nhất phải kể tới là 1 - 2 tuần tính từ Tết Dương lịch. Hoa sẽ nở kéo dài cả tháng và mỗi thời điểm thì hoa lại trổ đẹp ở những khu vực khác nhau. </string>-->
+    <!--    <string name="HoaAnhDao2">Mai anh đào sẽ nở rộ từ giữa tháng 1 đến giữa tháng 2 nên lưu ý những con đường đẹp để chụp hoa này là Trần Hưng Đạo, Triệu Việt Vương, đường đi Trại Mát, Trương Công Định, bờ hồ Xuân Hương, trường chuyên Thăng Long hoặc THCS Phan Chu Trinh. Nhưng nhìn chung thì vào mùa hoa nở, hầu hết mọi cung đường ở Đà Lạt đều sẽ không thiếu bóng dáng loài hoa này đâu.</string>-->
+    <!--    <string name="HoaAnhDao3">Khí hậu ôn hòa và tiết trời đẹp đẽ vào mùa xuân là điều kiện tuyệt vời để bạn du lịch Đà Lạt tháng 1 và ngắm mai anh đào, vì khi ấy sắc hồng của nó sẽ nổi bật hơn trên nền trời xanh thẳm. Lúc ấy thì chỉ cần canh góc và giơ máy lên là đã có ngay một bức ảnh thật đẹp chẳng cần qua chỉnh sửa. “Bật mí” với bạn là muốn chụp mai anh đào đẹp (không bị ngược sáng) thì nên đi vào buổi sáng để có nắng vàng và màu trời hài hòa hơn.-->
+    <!--                                Còn khi muốn chụp cùng thì nên đứng ở khoảng giữa cây hoa đã nở đều để bạn có thể nổi bật hơn giữa màu hồng rực rỡ ấy.</string>-->
+    <!--    <string name="HaGiangThang10">Hoa Tam Giác Mạch Hà Giang</string>-->
+    <!--    <string name="HaGiang1">Hà Giang cứ đến tháng 10, tháng 11 lại đón từng đoàn khách đi Tour Hà Giang ngắm những đồi hoa tam giác mạch trải bạt ngàn đồi núi. Màu sắc của hoa tam giác mạch thay đổi theo từng giai đoạn. </string>-->
+    <!--    <string name="HaGiang2"> Khi mới nở hoa mang màu trắng tinh khôi, rồi chuyển sang hồng nhạt, hồng ánh tím rồi đỏ sẫm cuối cùng chuyển sang đen khi tàn thì không còn đẹp nữa. Bởi vậy khách du lịch tour Hà Giang từ Hà Nội có thể đến ngắm những cánh đồng hoa này nở rộ đẹp nhất vào khoảng giữa tháng 10 đến giữa tháng 11, có năm từ giữa tháng 9 hoa đã bắt đầu lấm tấm màu trắng. </string>-->
+    <!--    <string name="HaGiang3">Hoa Tam Giác Mạch từ lâu đã trở thành điểm nhấn thu hút đông đảo khách du lịch Hà Giang mỗi năm, đặc biệt là các bạn trẻ thích du lịch và đam mê khám phá. Vùng đất địa đầu Tổ Quốc, nơi được ví như “Đà Lạt thứ hai của Việt Nam” này có những dãy núi cao hun hút tận mây xanh, những khu rừng hoang sơ và cao nguyên đá Đồng Văn rộng lớn, bát ngát. Bên cạnh đó, những cung đường trải dài, uốn lượn quanh những khu ruộng bậc thang trùng điệp cũng là điều hớp hồn bất cứ ai đến với Hà Giang lần đầu tiên.</string>-->
+
+    <!--    <string name="TuyetsapaThang1">Tuyết Rơi Sapa</string>-->
+    <!--    <string name="Tuyet3">Du khách đặt chân tới đây không khỏi ngỡ ngàng trước vẻ đẹp hiếm thấy ở một nước vùng nhiệt đới như Việt Nam. Tuyết phủ trắng từng mái nhà, từng con ngõ, từng ngóc ngách trong thị trấn. Từng nhành cây kẽ lá, hay những giọt sương mai chỉ kịp đậu trên cành, chưa kịp tan cũng đã bị đóng băng, trắng xóa.</string>-->
+    <!--    <string name="Tuyet2">Nếu Sapa lộng lẫy với muôn hoa khoe sắc vào mùa Xuân hay đượm sắc ánh vàng vào mùa Lúa thì Sapa lại còn sở hữu riêng cho mình một mùa đông tuyết trắng. Đó là điều Sapa thật đặc biệt và khác với mùa đông ở Hà Nội hay những tỉnh khác của miền Bắc. </string>-->
+    <!--    <string name="Tuyet1">Mùa tuyết rơi ở Sapa - vùng “Bắc cực” có một không hai ở nước ta, bạn đừng quên note ngay lại những điều cực thú vị và hấp dẫn để trải nghiệm tại nơi này nhé. </string>-->
+
+    <!--    <string name="PhuQuocThang5">Phú Quốc Mùa Biển</string>-->
+    <!--    <string name="PhuQuoc3">Phú Quốc được mệnh danh là Đảo Ngọc. Chắc chắn phải có lý do của nó. Các bãi biển ở đây không thể chê đâu được. Bãi biển dài với cát trắng, mặt nước xanh biếc. Có nơi bạn có thể nhìn thấy cả những tảng san hô nằm dưới mặt nước biển. Những hàng dừa xanh trải dài theo bãi biển. Tất cả tạo nên khung cảnh tuyệt đẹp, khó nơi đâu có được. Khám phá các bãi biển tuyệt đẹp Phú Quốc là lựa chọn đầu tiên khi đi du lịch vào tháng 5 này.</string>-->
+    <!--    <string name="PhuQuoc2">Du lịch Phú Quốc tháng 5, bạn sẽ không lo sẽ không đi tham quan và vui chơi được. Thời điểm này mới bắt đầu xuất hiện lác đác vài cơn mưa nhỏ. Mưa ở Phú Quốc giống như mưa ở Sài Gòn, đến nhanh hết nhanh.</string>-->
+    <!--    <string name="PhuQuoc1">Tháng 5 tùy rơi vào mùa mưa ở Phú Quốc nhưng đây là thời điểm tốt để đi du lịch. Tháng 5 là thời điểm giao mùa từ khô sang mưa. </string>-->
+
+    <!--    <string name="CamNangSapa">Cẩm Nang Sapa</string>-->
+
+
+    <!--    <string name="DaQuy1">Dã quỳ là một trong những loài hoa dại đẹp nổi tiếng của khắp núi rừng Tây Nguyên và nhiều tỉnh miền núi Tây Bắc. Tuy nhiên để đưa vẻ đẹp của hoa Dã Qùy lên một tầm cao mới thì chỉ có Đà Lạt.</string>-->
+    <!--    <string name="DaQuy3">Đà Lạt – Cầu Đất – Đ’ran – Châu Sơn – Phi Nôm – Tu Tra-->
+    <!--      Đây có thể được xem là cung đường ngắm hoa Dã Quỳ đẹp nhất tại Đà Lạt, khu vực dọc theo cung đường từ Trại Mát về đến đồ trà Cầu Đất, hoa Quỳ nở vàng rực hai bên đường, và đây cũng là mùa hồng giòn Đà Lạt đang chín nên bạn sẽ tha hồ đắm chìm vào không gian thiên nhiên xinh đẹp hai bên cung đường này. Qua hết đèo Dran là địa phận của thị trấn Đơn Dương, bạn sẽ dễ dàng bắt gặp những cung đường với hoa Dã Quỳ vàng rực hai bên và chân đập nước Đa Nhim là nơi hoa Dã Quỳ Đà Lạt rực rỡ nhất.</string>-->
+    <!--    <string name="DaQuy2">Mùa hoa dã quỳ Đà Lạt đẹp không phải bởi một hai bông hoa riêng lẻ, mà vì hoa ở đây mọc lên như buôn, như làng Tây Nguyên, tập trung thành từng khu quây quần ríu rít bên nhau tạo thành những thảm hoa vàng vô cùng ấn tượng.</string>-->
+    <!--    <string name="DuThuyenHaLong">Du Thuyền Trên Vịnh Hạ Long</string>-->
+    <!--    <string name="DuThuyen1">Du thuyền Starlight tự hào là du thuyền sang trọng bậc nhất tại Hạ Long với những khoảng không gian chung rộng rãi, thoáng mát, trang bị hiện đại. </string>-->
+    <!--    <string name="DuThuyen2">32 cabins của Starlight được trang bị đầy đủ như các Phòng khách sạn 5 sao xứng tầm thế giới. Du thuyền đã biến ước mơ xây dựng một khách sạn cao cấp “nổi” giữa kỳ quan Hạ Long xinh đẹp thành hiện thực</string>-->
+    <!--    <string name="DuThuyen3">Đến với Starlight cruise, du khách sẽ được đón chào bởi những nụ cười tươi, sự chuyên nghiệp trong phục vụ, sự quan tâm chu đáo đảm bảo cho du khách một chuyến đi đáng nhớ. Chúng tôi hiểu rằng: Dịch vụ du lịch không  chỉ đơn giản là đáp ứng những nhu cầu thăm quan, đi lại thông thường mà còn có sứ mệnh tạo ra những giây phút nghỉ dưỡng sảng khoái, những niềm hạnh phúc tinh thần bằng sự phục vụ tinh tế và đẳng cấp.</string>-->
+    <!--    <string name="QuangNinh">Quảng Ninh Phát Triển Du Lịch Thông Minh</string>-->
+    <!--    <string name="QuangNinh1">Quảng Ninh là một trong những địa phương tiên phong trên cả nước triển khai các giải pháp du lịch thông minh. Hạ tầng du lịch thông minh của Quảng Ninh cũng đang dần hoàn thiện dựa trên “bệ phóng” của đô thị thông minh.</string>-->
+    <!--    <string name="QuangNinh2">Các tàu du lịch trên Vịnh Hạ Long đều được lắp đặt hệ thống định vị GPS để nâng cao hệ số an toàn cho khách du lịch. Hệ thống camera giám sát ở một số hang động lớn như: Hang Ðầu Gỗ, động Thiên Cung, bảo đảm liên tục truyền dữ liệu về cho bộ phận giám sát.</string>-->
+    <!--    <string name="QuangNinh3">Đặc biệt, chỉ với 1 chiếc điện thoại thông minh, du khách có thể tiếp cận với các tiện ích, ứng dụng thông minh về du lịch, như tìm kiếm thông tin bằng giọng nói, dịch chuyển ngôn ngữ, hệ thống thuyết minh tự động tại các điểm đến với hướng dẫn viên ảo, hay tham quan 3D... trên nền tảng điện thoại di động.</string>-->
+
+    <string name="NoInterNetConnection">Không Có Kết Nối Internet</string>
+    <string name="HinhNoiBat">Hình Ảnh Nổi Bật</string>
+
+    <string name="PleaseCheckYourConnection">Vui Lòng Kiểm Tra Kết Nối Internet</string>
+    <string name="Retry">Thử Lại</string>
+    <string name="LogOut">Đăng Xuất</string>
+
+    <string name="listlike">Danh Sách Yêu Thích</string>
+
+    <string name="HuyTour">Hủy Tour</string>
+
+
+    <string name="ChiTietLichSu">Chi Tiết Lịch Sử</string>
+
+    <string name="NgayDiHis">Ngày đi:</string>
+    <string name="NgayThanhtoanHis">Ngày thanh toán:</string>
+    <string name="luuy">Lưu ý: Quý khách chỉ được hủy Tour sau khi thanh Toán trong vòng 3 ngày.</string>
+
+    <string name="DiaDiemDuLich">Địa Điểm Du Lịch</string>
+    <string name="password" translatable="false">Mật khẩu</string>
+    <string name="confirm_password" translatable="false">Nhập lại mật khẩu</string>
+    <string name="DanhSachKhachSan">Khách Sạn</string>
+    <string name="seeall"><u>Xem tất cả</u></string>
+    <string name="TenKhachSan">Tên Khách Sạn</string>
+    <string name="Gia1h">Giá 1 Giờ</string>
+    <string name="Gia1Dem">Giá 1 Đêm</string>
+    <string name="Gia1Ngay">Giá 1 Ngày</string>
+    <string name="DiaChi">Địa Chỉ</string>
+    <string name="datphong">Đặt Phòng</string>
+    <string name="MoTa">Mô Tả</string>
+    <string name="tinhtrang">Tình Trạng</string>
+    <string name="sodienthoai">Số Điện Thoại</string>
+    <string name="lichsuKhachsan">Lịch sử khách sạn</string>
+
+
+</resources>

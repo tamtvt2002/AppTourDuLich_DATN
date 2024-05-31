@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragments.fmTour">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="14dp"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="10dp"
+                android:layout_marginStart="30dp"
+                app:cardMaxElevation="5dp">
+
+                <Button
+                    android:id="@+id/btnTatCa"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/messenger_button_white_bg_selector"
+                    android:gravity="center"
+                    android:shadowColor="#616363"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="3"
+
+                    android:text="@string/All"
+                    android:textColor="@color/crimson"
+                    android:textSize="10sp"
+                    app:backgroundTint="@color/light_pink" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="10dp">
+
+                <Button
+                    android:id="@+id/btnMienBac"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/com_facebook_auth_dialog_header_background"
+                    android:gravity="center"
+                    android:shadowColor="#616363"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="3"
+                    android:text="@string/North"
+                    android:textColor="@color/crimson"
+                    android:textSize="10sp"
+                    app:backgroundTint="#FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="10dp">
+
+                <Button
+                    android:id="@+id/btnMienTrung"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/com_facebook_auth_dialog_header_background"
+                    android:gravity="center"
+                    android:shadowColor="#616363"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="3"
+                    android:text="@string/Central"
+                    android:textColor="@color/crimson"
+                    android:textSize="10sp"
+                    app:backgroundTint="#FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="10dp">
+
+                <Button
+                    android:id="@+id/btnMienNam"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/com_facebook_auth_dialog_header_background"
+                    android:gravity="center"
+                    android:shadowColor="#616363"
+
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="3"
+                    android:text="@string/South"
+                    android:textColor="@color/crimson"
+                    android:textSize="10sp"
+                    app:backgroundTint="#FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <fragment
+        android:id="@+id/fmTatCa"
+        android:name="com.example.apptourdulich.Fragments.fragmentTour"
+        android:layout_width="411dp"
+        android:layout_height="575dp"
+        tools:layout="@layout/fragment_tour" />
+</LinearLayout>

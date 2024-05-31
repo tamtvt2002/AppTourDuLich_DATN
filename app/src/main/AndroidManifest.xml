@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.apptourdulich">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".ui.admin.ChiTietHoaDonKSActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.HistoryHotel"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.DetailKhachSanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.DanhSachKhachSanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.ThemKhachSanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.DanhSachKhuyenMaiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.admin.ThemKhuyenMaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.HoaDonAdminActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.admin.DanhSachTinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.admin.ThemTinTucActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.admin.DanhSachTourActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.admin.AddTourActivity"
+            android:exported="true" />
+        <activity android:name=".ThongBao" />
+        <activity android:name=".Activity.DetailKhuyenMaiActivity" />
+        <activity android:name=".Activity.DetailTinTucActivity" />
+        <activity android:name=".infoHistory" />
+        <activity android:name=".lovelist" />
+        <activity
+            android:name=".Activity.DetailTinTucActivity"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".infoHistory"
+            tools:ignore="DuplicateActivity" />
+        <activity android:name=".History" />
+        <activity android:name=".Like" />
+        <activity android:name=".ChangeLanguage" />
+        <activity android:name=".Bill" />
+        <activity
+            android:name=".InfoTour"
+            android:label="@string/title_activity_info_tour" />
+        <activity android:name=".Rules" />
+        <activity android:name=".Contact" />
+        <activity android:name=".tour" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".Search"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".Profile" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity android:name=".Confirm_otp" />
+        <activity
+            android:name=".Activity.StartActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+
+        <activity
+            android:name=".Activity.SignLoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoadScreen">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="fb498471527958027" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

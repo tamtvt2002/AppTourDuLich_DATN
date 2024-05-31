@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "571837601865",
+    "firebase_url": "https://dulich-539ce-default-rtdb.firebaseio.com",
+    "project_id": "dulich-539ce",
+    "storage_bucket": "dulich-539ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571837601865:android:ab5d48fba72a10233f4798",
+        "android_client_info": {
+          "package_name": "com.example.apptourdulich"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK-n0yO0Hr8gVrMB9673qzdYzB0gIBqRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

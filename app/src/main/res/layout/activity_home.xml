@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <fragment
+        android:id="@+id/fm_Container"
+        android:name="com.example.apptourdulich.Fragments.fm_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/cardView9"
+      />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView9"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginBottom="0dp"
+        android:background="#9EFFFFFF"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="7dp"
+        android:layout_centerHorizontal="true"
+       android:layout_alignParentBottom="true">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#FFFFFF"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+
+            app:itemIconTint="@color/pink"
+            app:itemRippleColor="#E8E8E8"
+            app:itemTextColor="@color/pink"
+            app:labelVisibilityMode="auto"
+            app:menu="@menu/bottommenu">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

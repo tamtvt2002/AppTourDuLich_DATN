@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_icon_silhouette"
+        android:title="@string/Home" />
+
+    <item
+        android:id="@+id/navigation_promo"
+        android:icon="@drawable/coupon"
+        android:title="@string/Promotion" />
+
+    <item
+        android:id="@+id/navigation_tour"
+        android:icon="@drawable/ic_baseline_event_note_24"
+        android:title="@string/Tour" />
+    <item
+        android:id="@+id/navigation_location"
+        android:icon="@drawable/news__1_"
+        android:title="@string/News" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/man_user"
+        android:title="@string/Profile" />
+</menu>
